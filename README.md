@@ -1,21 +1,9 @@
-# UuidBench
+# UUID Bench
 
-**TODO: Add description**
+ * https://github.com/elixir-ecto/ecto/blob/v3.9.4/lib/ecto/uuid.ex
+ * https://github.com/TheRealReal/ecto-ulid
+ * https://github.com/bitwalker/uniq
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `uuid_bench` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:uuid_bench, "~> 0.1.0"}
-  ]
-end
+```bash
+mix run bench/uuid.exs
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/uuid_bench>.
-
